@@ -1,6 +1,8 @@
 # GitHub Copilot Workshop Series
 
-Welcome! This workshop series contains three hands-on coding exercises designed to teach you how to get the most out of GitHub Copilot as an AI-powered coding assistant. These exercises go beyond simple code completion — they focus on the **prompting techniques** and **workflows** that separate a casual Copilot user from a power user.
+## Welcome!
+
+This workshop series contains three hands-on coding exercises designed to teach you how to get the most out of GitHub Copilot as an AI-powered coding assistant. These exercises go beyond simple code completion — they focus on the **prompting techniques** and **workflows** that separate a casual Copilot user from a power user.
 
 Each exercise takes approximately **10–15 minutes** to complete with Copilot's assistance and is aimed at university students and recent graduates with a working knowledge of Python and/or Java.
 
