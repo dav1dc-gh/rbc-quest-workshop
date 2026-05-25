@@ -41,6 +41,7 @@ Your job:
 6. Compile and run the Java tests:
    ```bash
    cd src
+   curl -L -o junit-platform-console-standalone-1.10.0.jar https://repo1.maven.org/maven2/org/junit/platform/junit-platform-console-standalone/1.10.0/junit-platform-console-standalone-1.10.0.jar
    javac -cp .:junit-platform-console-standalone-1.10.0.jar InventoryManager.java InventoryManagerTest.java
    java -cp .:junit-platform-console-standalone-1.10.0.jar org.junit.platform.console.ConsoleLauncher --select-class InventoryManagerTest
    ```
