@@ -58,8 +58,26 @@ This workshop consists of three progressively challenging exercises. You can com
 
 ## Tips for Success
 
+### Prompting Techniques
+
+- **Be specific about what you want** — vague prompts produce vague results; detailed prompts produce detailed results
+- **Iterate on your prompts** — if the first suggestion isn't great, rephrase your request with more specifics or add constraints
+- **Break complex requests into steps** — instead of asking for everything at once, guide Copilot through a multi-step conversation
+- **Tell Copilot what you already know** — if you understand part of the problem, share that context so it can focus on what you don't know
+- **Use examples in your prompts** — showing Copilot one example of what you want often produces better results than describing it abstractly
+
+### Working with Copilot in Your IDE
+
 - **Give Copilot context** — open the relevant files in your editor so Copilot can see the code you're working with
 - **Use Copilot Chat** (`Ctrl+I` / `Cmd+I`) to ask targeted questions like "What algorithm is this?" or "What edge cases should I test?"
-- **Iterate on your prompts** — if the first suggestion isn't great, rephrase your request with more specifics
+- **Highlight code before asking** — selecting specific code and then asking a question gives Copilot focused context
+- **Use inline comments as prompts** — writing a comment describing what you want next often triggers great inline suggestions
+- **Keep related files open** — Copilot uses your open tabs as context, so having tests and source open together helps
+
+### Quality and Verification
+
 - **Don't accept blindly** — always review generated code for correctness before moving on
-- **Be specific about what you want** — vague prompts produce vague results; detailed prompts produce detailed results
+- **Run tests frequently** — use your test suite as a safety net to catch issues early
+- **Compare outputs** — when refactoring or converting code, verify that the behavior hasn't changed
+- **Ask Copilot to explain its own output** — if you're unsure about generated code, ask "explain this code" to build your understanding
+- **Think about what's missing** — Copilot generates what you ask for, but it's your job to identify what *hasn't* been covered
